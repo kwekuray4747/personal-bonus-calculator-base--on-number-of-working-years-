@@ -6,12 +6,12 @@ int main() {
 //this programe is used to calculate the bonus of workers in a particular company based on the number of years they have worked there
 
     cout<<"WELCOME TO VANCETECH COMPANY LIMITED"<<endl;
-    cout<<"please enter your name"<<endl;
+    cout<<"Please enter your name"<<endl;
     string name;
     getline(cin,name);
 
     //now ask the worker how log has he be working in the company
-    cout<<"please for how many years have you been working in this companey"<<endl;
+    cout<<"Hello "<<name<<","<<"please for how many years have you been working in this companey"<<endl;
 int number_of_working_years;
     cin>>number_of_working_years;
 
